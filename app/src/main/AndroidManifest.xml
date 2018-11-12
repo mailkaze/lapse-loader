@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mailkaze.newfreedomloader" >
+
+    <application
+        android:versionName="2.0.0"
+        android:versionCode="2"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Freedom Loader"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Principal"
+            android:label="Freedom Loader" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Estadisticas"
+            android:label="@string/title_activity_estadisticas" >
+        </activity>
+    </application>
+
+</manifest>
